@@ -8,8 +8,7 @@ apt-get update
 apt-get install -y bitcoind
 
 mkdir -p ~/.bitcoin
-touch ~/.bitcoin/bitcoin.conf
-vim ~/.bitcoin/bitcoin.conf
+cp ~/paetio-install/bitcoin.conf ~/.bitcoin/
 
 #edit conf after this for bitcoind
 #set username and password to access bitcoin server
