@@ -9,6 +9,7 @@ make test
 cp src/redis-server /usr/local/bin/
 cp src/redis-cli /usr/local/bin/
 mkdir /etc/redis
+cd ~/paetio-install
 cp redis.conf /etc/redis
 
 cp redis.service /etc/systemd/system/
@@ -18,3 +19,6 @@ chown redis:redis /var/lib/redis
 chmod 770 /var/lib/redis
 systemctl start redis
 systemctl status redis
+
+# install instructions in this link
+# https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04
