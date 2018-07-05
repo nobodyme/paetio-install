@@ -14,4 +14,4 @@ apt-get install -y nodejs
 gem install rails -v 5.2.0
 rbenv rehash
 
-apt-get install mysql-server mysql-client libmysqlclient-dev
+apt-get install -y mysql-server mysql-client libmysqlclient-dev

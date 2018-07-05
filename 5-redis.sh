@@ -1,5 +1,5 @@
 apt-get update
-apt-get install build-essential tcl
+apt-get install -y build-essential tcl
 cd /tmp
 curl -O http://download.redis.io/redis-stable.tar.gz
 tar xzvf redis-stable.tar.gz

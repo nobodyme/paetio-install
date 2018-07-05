@@ -5,7 +5,7 @@ cd ~/
 
 add-apt-repository ppa:bitcoin/bitcoin
 apt-get update
-apt-get install bitcoind
+apt-get install -y bitcoind
 
 mkdir -p ~/.bitcoin
 touch ~/.bitcoin/bitcoin.conf
