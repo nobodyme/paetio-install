@@ -9,11 +9,11 @@ echo "open and install ruby and rails according to the commands in this file"
 # export LC_ALL=en_US.UTF-8
 # export LANG=en_US.UTF-8
 
-# #rbenv install 2.2.8 --verbose
-# #rbenv global 2.2.8
+# rbenv install 2.2.8 --verbose
+# rbenv global 2.2.8
 
-# #echo "gem: --no-ri --no-rdoc" > ~/.gemrc
-# #gem install bundler
-# #rbenv rehash
-# #gem install rails -v 5.2.0
-# #rbenv rehash
+# echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+# gem install bundler
+# rbenv rehash
+# gem install rails -v 5.2.0
+# rbenv rehash

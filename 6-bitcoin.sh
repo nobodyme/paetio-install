@@ -10,7 +10,7 @@ apt-get install -y bitcoind
 mkdir -p ~/.bitcoin
 cp ~/paetio-install/bitcoin.conf ~/.bitcoin/
 
-#edit conf after this for bitcoind
-#set username and password to access bitcoin server
+echo "set username password in ~/.bitcoin/bitcoin.conf"
 
-#paste same bitcoin username and password in config/currenices.yml
+#edit conf after this for bitcoind
+#set username and password to access bitcoind in config/currenices.yml
