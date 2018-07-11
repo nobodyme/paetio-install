@@ -1,10 +1,10 @@
 cd
 git clone https://devappoets@bitbucket.org/appoets/peatio.git
 cd ~/peatio
-bundle install
+# bundle install
 # on error do json update and do bundle install again like the following
-bundle update json
-bundle install
+# bundle update json
+# bundle install
 
 # edit config/application.yml to set up site URL_HOST
 # paste same bitcoin username and password in config/currenices.yml

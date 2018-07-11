@@ -16,6 +16,7 @@ rbenv rehash
 gem install rails -v 5.2.0
 rbenv rehash
 
+cd ~/paetio-install
 sudo ./4-rabbitmq-erlang.sh
 sudo ./5-redis-one.sh
 
@@ -38,6 +39,10 @@ sudo ./7-github.sh
 # paste same bitcoin username and password in config/currenices.yml
 # set mysql admin name and password in config/database.yml
 # edit db/seeds.rb file to input admin user name and password for the website
+
+bundle install
+bundle update json
+bundle install
 
 bundle exec rake db:setup
 bundle exec rake daemons:start

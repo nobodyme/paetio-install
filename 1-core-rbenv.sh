@@ -4,4 +4,5 @@ cd
 git clone git://github.com/sstephenson/rbenv.git .rbenv > /dev/null 2>&1
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+cd ~/paetio-install
 exec $SHELL
