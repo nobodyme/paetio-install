@@ -10,3 +10,9 @@ wget -O- https://dl.bintray.com/rabbitmq/Keys/rabbitmq-release-signing-key.asc |
 
 apt-get update
 apt-get install -y rabbitmq-server
+
+rabbitmq-plugins enable rabbitmq_management
+service rabbitmq-server restart
+wget http://localhost:15672/cli/rabbitmqadmin
+chmod +x rabbitmqadmin
+mv rabbitmqadmin /usr/local/sbin
